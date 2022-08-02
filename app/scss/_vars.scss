@@ -1,0 +1,31 @@
+$gray: #e7f2f8;
+$text-gray: #3f4b61;
+$red: #E3403B;
+$mobile-bg: #3C18AC;
+
+@mixin boxshadow {
+    box-shadow: 0 0 35px rgb(0 0 0 / 20%);
+}
+ 
+@keyframes circle{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes circle_minus{
+    from {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(-316deg);
+    }
+}
+
+
+
